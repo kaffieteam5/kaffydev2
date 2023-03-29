@@ -23,7 +23,7 @@ pipeline{
 			steps{
 				echo "keep walking"
 				echo "final stage"
-				sh 'log'
+				sh 'logname'
 			}
 		}
 	}
